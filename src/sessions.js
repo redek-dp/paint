@@ -218,12 +218,12 @@
 				var script = document.createElement("script");
 				script.addEventListener("load", () => {
 					const config = {
-						apiKey: "AIzaSyBgau8Vu9ZE8u_j0rp-Lc044gYTX5O3X9k",
-						authDomain: "jspaint.firebaseapp.com",
-						databaseURL: "https://jspaint.firebaseio.com",
-						projectId: "firebase-jspaint",
+						apiKey: "",
+						authDomain: "",
+						databaseURL: "",
+						projectId: "",
 						storageBucket: "",
-						messagingSenderId: "63395010995"
+						messagingSenderId: ""
 					};
 					firebase.initializeApp(config);
 					MultiUserSession.fb_root = firebase.database().ref("/");
